@@ -1,5 +1,8 @@
 # spring-rest-content-negotiation
 
+* Determining what format the user has requested relies on a **ContentNegotationStrategy**. 
+* There are default implementations available out of the box, but you can also implement your own if you wish.
+* When making a request from frontend via HTTP it is possible to specify what type of response you would like by setting the **Accept** header property.
 
 #### Create REST API
 ```java
